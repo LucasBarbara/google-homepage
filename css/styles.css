@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: arial, sans-serif;
+}
+
+button {
+
+  padding: 7px 15px;
+  background-color: #F4F4F4;
+  border-color: #E3E3E3;
+}
+
+footer {
+
+  font-size: 13px; /* confirmar */
+  bottom: 8px; /* confirmar */
+  width: 100%;
+  background-color: darkkhaki;
+}
+
+form {
+
+  height: 118px; /* confirmar */
+  /* background-color: gray; */
+  color: rgb(34, 34, 34);
+  font-size: 13px;
+}
+
+img {
+
+  display: block;
+  margin: 0 auto;
+  padding-top: 109px; /* ver no fim */
+}
+
+input {
+
+  display: block;
+  width: 450px;
+  margin: 20px auto;
+  /* background-color: seagreen; */
+  height: 38px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: 1px solid #E3E3E3;
+}
+
+
+main {
+
+  /* background-color: bisque; */
+  height: 80vh; /* a confirmar */
+  margin-top: 89px; /* confirmar no fim */
+  
+}
+
+nav {
+
+  font-size: 13px;
+  right: 0px; /* confirmar */
+  top: 8px; /* confirmar */ 
+  width: 100%;
+  background-color: aqua;
+}
+
+.lang {
+
+  text-align: center;
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.buttons {
+
+  text-align: center;
+  /* background-color: ivory; */
+}
+
+.main {
+
+}
