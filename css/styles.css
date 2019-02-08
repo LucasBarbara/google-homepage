@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+a {
+
+  text-decoration: none;
+}
+
 body {
 
   font-family: arial, sans-serif;
+  font-size: 13px;
 }
 
 button {
@@ -24,14 +30,12 @@ footer {
 
   background-color: darkkhaki;
   bottom: 8px; /* confirmar */
-  font-size: 13px; /* confirmar */
   width: 100%;
 }
 
 form {
 
   color: rgb(34, 34, 34);
-  font-size: 13px;´
   height: 118px; /* confirmar */
   /* background-color: gray; */
 }
@@ -64,20 +68,19 @@ main {
   
 }
 
-nav {
+.flex-container-nav {
 
-  font-size: 13px;
-  right: 0px; /* confirmar */
-  top: 8px; /* confirmar */ 
-  width: 100%;
-  background-color: aqua;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
 }
 
 .lang {
 
-  text-align: center;
-  font-size: 13px;
   line-height: 28px;
+  margin-top: 7px;
+  text-align: center;
 }
 
 .buttons {
@@ -90,6 +93,17 @@ nav {
 
 }
 
+.material-icons {
+
+  margin-top: 5px;
+}
+
+.nav-item {
+
+    margin: 20px 10px;
+  color: black;
+}
+
 .search {
 
   width: 600px;
@@ -97,6 +111,15 @@ nav {
   position: relative;
 }
 
+#link-button {
+
+  background-color: #4285F4;
+  border-radius: 2px;
+  color: white;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 7px 12px;
+}
 
 .search .fa-keyboard{
 
