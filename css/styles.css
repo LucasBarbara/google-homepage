@@ -12,7 +12,6 @@ button {
 
   padding: 7px 15px;
   background-color: #F4F4F4;
-  border-color: #E3E3E3;
 }
 
 footer {
@@ -47,6 +46,7 @@ input {
   height: 38px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border: 1px solid #E3E3E3;
+  border-radius: 3px;
 }
 
 
@@ -86,8 +86,7 @@ nav {
 
 .search {
 
-  background-color: red;
-  width: 550px;
+  width: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -97,7 +96,7 @@ nav {
 
   position: absolute;
   top: 14px;
-  left: 515px;
+  left: 565px;
   font-size: 16px;
   color: #636363;
 }
