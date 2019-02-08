@@ -28,7 +28,6 @@ button {
 
 footer {
 
-  background-color: darkkhaki;
   bottom: 8px; /* confirmar */
   width: 100%;
 }
@@ -37,7 +36,6 @@ form {
 
   color: rgb(34, 34, 34);
   height: 118px; /* confirmar */
-  /* background-color: gray; */
 }
 
 img {
@@ -63,9 +61,17 @@ input {
 main {
 
   /* background-color: bisque; */
-  height: 80vh; /* a confirmar */
+  height: 73vh; /* a confirmar */
   margin-top: 89px; /* confirmar no fim */
   
+}
+
+.flex-container-footer {
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
 }
 
 .flex-container-nav {
@@ -73,7 +79,29 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+  }
+
+.flex-container-sec1 {
+
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-container-sec2 {
+
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+
+  background-color:  #F4F4F4;
+  border-top: 1px solid rgb(219, 225, 233);
+  color: rgb(119, 123, 129);
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .lang {
@@ -86,7 +114,6 @@ main {
 .buttons {
 
   text-align: center;
-  /* background-color: ivory; */
 }
 
 .main {
@@ -100,7 +127,7 @@ main {
 
 .nav-item {
 
-    margin: 20px 10px;
+  margin: 20px 10px;
   color: black;
 }
 
@@ -117,8 +144,21 @@ main {
   border-radius: 2px;
   color: white;
   font-weight: 700;
-  margin-right: 10px;
+  margin-right: 25px;
   padding: 7px 12px;
+}
+
+.footer a {
+
+  color: rgb(119, 123, 129);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer p {
+
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .search .fa-keyboard{
