@@ -28,7 +28,7 @@ form {
   height: 118px; /* confirmar */
   /* background-color: gray; */
   color: rgb(34, 34, 34);
-  font-size: 13px;
+  font-size: 13px;´
 }
 
 img {
@@ -41,7 +41,7 @@ img {
 input {
 
   display: block;
-  width: 450px;
+  width: 100%;
   margin: 20px auto;
   /* background-color: seagreen; */
   height: 38px;
@@ -82,4 +82,22 @@ nav {
 
 .main {
 
+}
+
+.search {
+
+  background-color: red;
+  width: 550px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.search .fa-keyboard{
+
+  position: absolute;
+  top: 14px;
+  left: 515px;
+  font-size: 16px;
+  color: #636363;
 }
