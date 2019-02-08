@@ -10,24 +10,30 @@ body {
 
 button {
 
-  padding: 7px 15px;
   background-color: #F4F4F4;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: none;
+  color: rgba(117, 117, 117, 0.8);
+  font-weight: 700;
+  margin: 10px 5px;
+  padding: 10px 18px;
 }
 
 footer {
 
-  font-size: 13px; /* confirmar */
-  bottom: 8px; /* confirmar */
-  width: 100%;
   background-color: darkkhaki;
+  bottom: 8px; /* confirmar */
+  font-size: 13px; /* confirmar */
+  width: 100%;
 }
 
 form {
 
-  height: 118px; /* confirmar */
-  /* background-color: gray; */
   color: rgb(34, 34, 34);
   font-size: 13px;´
+  height: 118px; /* confirmar */
+  /* background-color: gray; */
 }
 
 img {
