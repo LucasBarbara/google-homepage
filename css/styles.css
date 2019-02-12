@@ -24,18 +24,20 @@ button {
   font-weight: 700;
   margin: 10px 5px;
   padding: 10px 18px;
+  letter-spacing: 0.05em;
 }
 
 footer {
 
   bottom: 8px; /* confirmar */
-  width: 100%;
+  min-width: 900px;
 }
 
 form {
 
   color: rgb(34, 34, 34);
   height: 118px; /* confirmar */
+  padding-top: 5px;
 }
 
 img {
@@ -51,19 +53,24 @@ input {
   width: 100%;
   margin: 20px auto;
   /* background-color: seagreen; */
-  height: 38px;
+  height: 45px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border: 1px solid #E3E3E3;
   border-radius: 3px;
 }
 
-
 main {
 
   /* background-color: bisque; */
-  height: 73vh; /* a confirmar */
-  margin-top: 89px; /* confirmar no fim */
+  height: 80vh; /* a confirmar */
+  margin-top: 25px;
+  min-width: 900px;
   
+}
+
+nav {
+
+  min-width: 900px;
 }
 
 .flex-container-footer {
@@ -95,6 +102,11 @@ main {
   justify-content: flex-end;
 }
 
+/* .flex-container-white-space {
+
+  min-width: 300px;
+} */
+
 .footer {
 
   background-color:  #F4F4F4;
@@ -107,17 +119,13 @@ main {
 .lang {
 
   line-height: 28px;
-  margin-top: 7px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .buttons {
 
   text-align: center;
-}
-
-.main {
-
 }
 
 .material-icons {
@@ -133,7 +141,7 @@ main {
 
 .search {
 
-  width: 600px;
+  width: 550px;
   margin: 0 auto;
   position: relative;
 }
@@ -164,8 +172,8 @@ main {
 .search .fa-keyboard{
 
   position: absolute;
-  top: 14px;
-  left: 565px;
+  top: 16px;
+  left: 515px;
   font-size: 16px;
   color: #636363;
 }
